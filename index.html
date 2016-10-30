@@ -1,11 +1,20 @@
 <html lang="en">
     <head>
-
+        <title>MagnetView Demo</title>
+        <link rel="stylesheet" href="src/inject/inject.css" />
     </head>
     <body>
-    
+        <h1>MagnetView Demo</h1>
+        <p>Below is a magnet link. MagnetView will inject a button next to it that allows you to view the stream live, on the same page.</p>
         <a href="magnet:?xt=urn:btih:6a9759bffd5c0af65319979fb7832189f4f3c35d&dn=sintel.mp4&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&tr=wss%3A%2F%2Ftracker.webtorrent.io&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel-1024-surround.mp4">Magnet Link</a>
     
+        <br>
+        <p>If you don't have MagnetView, here is the button injected anyways.</p>
+        <a href="magnet:?xt=urn:btih:6a9759bffd5c0af65319979fb7832189f4f3c35d&dn=sintel.mp4&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&tr=wss%3A%2F%2Ftracker.webtorrent.io&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel-1024-surround.mp4">Magnet Link</a>
+        
+        <script src="src/inject/webtorrent.min.js"></script>
+        <script src="src/inject/inject.js"></script>
+        
     
     </body>
 </html>
