@@ -1,0 +1,66 @@
+/**
+ * Styles.
+ **/
+
+
+.injected-beam-button {
+    background: #35B44F;
+    border: solid 3px #35B44F;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    z-index: 99999999;
+    opacity: 1;
+    font-size: 14px;
+    height: auto;
+    padding: 3px;
+    margin: 3px;
+}
+
+.injected-beam-button:hover{
+    background-color: #54cd6d;
+    border-color: #54cd6d;
+}
+
+
+.injected-beam-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: black;
+    z-index: 999999;
+    padding-top: 30px;
+}
+
+.injected-beam-closeButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.injected-beam-container {
+    width: 100%;
+    overflow-y: scroll;
+    padding: 5%;
+}
+
+.injected-beam-container * {
+    width: 90%;
+}
+
+.injected-beam-progress {
+    position: absolute;
+    height: 6px;
+    top:0;
+    right: 0;
+    left: 0;
+    background: #35B44F;
+    border: 2px solid black;
+    border-radius: 2px;
+}
