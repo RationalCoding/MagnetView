@@ -1,6 +1,14 @@
-# MagnetView
-<img src="https://s15.postimg.org/iqi10yj8b/icon.png" width="300"><br><br>
-A Chrome Extension to **embed [WebTorrent](https://github.com/feross/webtorrent) directly into tracker sites.** 
+<h1 align="center">
+  <br>
+  <a href="https://rationalcoding.github.io/MagnetView/"><img src="https://s15.postimg.org/iqi10yj8b/icon.png" alt="WebTorrent" width="200"></a>
+  <br>
+  MagnetView
+  <br>
+  <br>
+</h1>
+
+<h4 align="center">Embed [WebTorrent](https://github.com/feross/webtorrent) directly into tracker sites.</h4>
+<br>
 
 Simply install the Chrome extension (or use another way to inject the stylesheet/scripts) and all magnet links will be given a button to instantly stream via WebTorrent. Just click and play!
 
