@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Embed [WebTorrent](https://github.com/feross/webtorrent) directly into tracker sites.</h4>
+<h4 align="center">Embed <a href = "https://github.com/feross/webtorrent" >WebTorrent</a> directly into tracker sites.</h4>
 <br>
 
 Simply install the Chrome extension (or use another way to inject the stylesheet/scripts) and all magnet links will be given a button to instantly stream via WebTorrent. Just click and play!
