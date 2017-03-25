@@ -24,7 +24,3 @@ git clone https://github.com/RationalCoding/MagnetView
 -> Choose the folder where you cloned MagnetView.
 -> Enjoy!
 ```
-
-### Limitations
-This extension does not use a hybrid WebTorrent peer, so *you'll only be able to connect to other WebTorrent peers.*  
-Many magnet links will fail because of this. Please use [WebTorrent Desktop](https://webtorrent.io/desktop/) to help solve this issue.
