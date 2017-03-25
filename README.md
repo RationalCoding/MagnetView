@@ -14,7 +14,7 @@ Embeds a WebTorrent client into any tracker site. Click the button next to the m
 
 [Demo](https://rationalcoding.github.io/MagnetView/) *(you do not need the extension to try it out!)*
 
-##Installation
+## Installation
 MagnetView is still in development, so you'll have to manually install it for now.  
 ```
 git clone https://github.com/RationalCoding/MagnetView
@@ -25,6 +25,6 @@ git clone https://github.com/RationalCoding/MagnetView
 -> Enjoy!
 ```
 
-###Limitations
+### Limitations
 This extension does not use a hybrid WebTorrent peer, so *you'll only be able to connect to other WebTorrent peers.*  
 Many magnet links will fail because of this. Please use [WebTorrent Desktop](https://webtorrent.io/desktop/) to help solve this issue.
